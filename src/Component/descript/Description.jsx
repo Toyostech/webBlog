@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography } from '@mui/material'
+import { Container, Grid, Typography } from '@mui/material'
 
 import React from 'react'
 import Subheader from '../ReuseableUI/subheader/Subheader'
@@ -12,7 +12,7 @@ const Description = () => {
       <Container>
         <Grid container spacing={5} alignItems='center' justifyContent="center">
           <Grid item md={6}>
-            <img src="/img/Woman.webp" width={500} height={500} alt="" />
+            <img src="../../img/Woman.webp" width={500} height={500} alt="" />
           </Grid>
           <Grid item md={6}>
 
@@ -37,7 +37,7 @@ const Description = () => {
                
 
               }}>
-                <img src="/img/twitter.png" width={50} height={50} alt='' />
+                <img src="../../img/twitter.png" width={50} height={50} alt='' />
                 <Typography fontWeight={600}>Enhance your skill</Typography>
               </Grid>
               <Grid item sx={{
@@ -46,7 +46,7 @@ const Description = () => {
                 alignItems: "center"
 
               }}>
-                <img src="/img/facebook.png" width={50} height={50} alt='' />
+                <img src="../../img/facebook.png" width={50} height={50} alt='' />
                 <Typography fontWeight={600}>Start learning</Typography>
               </Grid>
             </Grid>

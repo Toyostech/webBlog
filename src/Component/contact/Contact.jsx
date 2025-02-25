@@ -1,4 +1,4 @@
-import { Box, Button, Container, Grid, TextField, Typography } from '@mui/material'
+import { Box, Button, Container, TextField, Typography } from '@mui/material'
 
 import React, { useState } from 'react'
 
@@ -50,7 +50,7 @@ const Contact = () => {
   return (
     <>
       <section style={{
-        background: "url(/img/nature.jpg)",
+        background: "url(../../Img/nature.jpg)",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
