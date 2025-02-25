@@ -12,7 +12,7 @@ const Description = () => {
       <Container>
         <Grid container spacing={5} alignItems='center' justifyContent="center">
           <Grid item md={6}>
-            <img src="../../img/Woman.webp" width={500} height={500} alt="" />
+            <img src="../../img/girl3.jpg" width={500} height={500} alt="" />
           </Grid>
           <Grid item md={6}>
 
