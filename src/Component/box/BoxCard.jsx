@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Paper, Typography } from '@mui/material'
+import { Box, Button, Container, Grid, Paper, Typography } from '@mui/material'
 import React from 'react'
 import { Coursdate } from '../ReuseableUI/Data'
 
@@ -32,6 +32,7 @@ const BoxCard = () => {
                                     
                                 }}/>
                                 <Typography variant='h5' fontWeight={800}>{val.label}</Typography>
+                                <Button>checking</Button>
                                 
 
                             </Paper>
