@@ -32,7 +32,7 @@ const BoxCard = () => {
                                     
                                 }}/>
                                 <Typography variant='h5' fontWeight={800}>{val.label}</Typography>
-                                <Button>checking</Button>
+                               
                                 
 
                             </Paper>
