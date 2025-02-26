@@ -47,22 +47,22 @@ export const Coursdate =[
 ]
 export const boxdata= [
     {
-        img: "/img/box1.jpg",
+        img: "/Img/box1.jpg",
         label: "Super fast & Friendly interface"
     },
     {
-        img: "/img/box2.jpg",
+        img: "/Img/box2.jpg",
         label: "20 most interesting UX design case study"
     },
     {
-        img: "/img/box3.jpg",
+        img: "/Img/box3.jpg",
         label: "How o grow a creative digital agency?"
     },
     {
-        img: "/img/box4.jpg",
+        img: "/Img/box4.jpg",
         label: "Super fast & Friendly interface"
     },{
-        img: "/img/box5.jpg",
+        img: "/Img/box5.jpg",
         label: "Super fast & Friendly interface"
     },
 ]
