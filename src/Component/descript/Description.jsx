@@ -2,6 +2,8 @@ import { Container, Grid, Typography } from '@mui/material'
 
 import React from 'react'
 import Subheader from '../ReuseableUI/subheader/Subheader'
+import images from '../pic/girl3.jpg'
+import twitter from '../pic/twitter.png'
 
 const Description = () => {
   return (
@@ -12,7 +14,7 @@ const Description = () => {
       <Container>
         <Grid container spacing={5} alignItems='center' justifyContent="center">
           <Grid item md={6}>
-            <img src="../../img/girl3.jpg" width={500} height={500} alt="" />
+            <img src={images} width={500} height={500} alt="" />
           </Grid>
           <Grid item md={6}>
 
@@ -37,7 +39,7 @@ const Description = () => {
                
 
               }}>
-                <img src="../../img/twitter.png" width={50} height={50} alt='' />
+                <img src={twitter} width={50} height={50} alt='' />
                 <Typography fontWeight={600}>Enhance your skill</Typography>
               </Grid>
               <Grid item sx={{

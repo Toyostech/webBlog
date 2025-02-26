@@ -1,5 +1,7 @@
 "use client"
 import { Container, Grid, Typography } from '@mui/material'
+import imgs from '../pic/box5.jpg'
+import img1 from '../pic/gril.jpg'
 
 import React from 'react'
 
@@ -7,7 +9,7 @@ const Total = () => {
     return (
         <section style={{
            
-            backgroundImage: "url(/img/bg.jpg)",
+            backgroundImage: "url(../img/bg.jpg)",
             
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -36,7 +38,7 @@ const Total = () => {
                                 justifyContent: "center",
                                 alignItems: "center"
                             }}>
-                                <img src="/img/box5.jpg" style={{
+                                <img src={imgs} style={{
                                     borderRadius: "50%",
                                     textAlign: "center",
 
@@ -74,7 +76,7 @@ const Total = () => {
                                 justifyContent: "center",
                                 alignItems: "center"
                             }}>
-                                <img src="/img/gril.jpg"style={{
+                                <img src={img1}style={{
                                     borderRadius: "50%",
                                     textAlign: "center",
 
@@ -113,7 +115,7 @@ const Total = () => {
                                 justifyContent: "center",
                                 alignItems: "center"
                             }}>
-                                <img src="/img/box5.jpg"style={{
+                                <img src={imgs}style={{
                                     borderRadius: "50%",
                                     textAlign: "center",
 
