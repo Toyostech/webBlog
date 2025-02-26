@@ -2,7 +2,8 @@ import { Drawer, IconButton, Tab, Tabs, Typography } from '@mui/material'
 
 import React, { useState } from 'react'
 import { navdate } from '../ReuseableUI/Data'
-import { Link } from 'react-router-dom'
+import menu from '../pic/menu.png'
+
 
 
 
@@ -17,7 +18,7 @@ const DrawersCom = () => {
             <IconButton onClick={() => (setOpen(true))} style={{
                 ml: "auto"
             }}>
-                <img src="/img/menu.png" width={50} height={50} alt=''/>
+                <img src={menu} width={50} height={50} alt=''/>
                
             </IconButton>
             <Drawer PaperProps={{
