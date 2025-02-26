@@ -1,8 +1,11 @@
-import { Box, Container, Grid, Typography } from '@mui/material'
+import { Box, Container, Grid, Typography, useMediaQuery, useTheme } from '@mui/material'
+
+
 
 import React from 'react'
 
 const FeedBack = () => {
+    const isMobile = useMediaQuery(useTheme().breakpoints.down("xs"))
     return (
         <>
             <section >
@@ -12,14 +15,18 @@ const FeedBack = () => {
 
                     <Box margin={5} bgcolor={"red"} alignItems={"center"} justifyContent={"center"} boxShadow={"11px -10px 10px black"}>
                         <Grid container spacing={2} alignItems={"center"} justifyContent={"center"}>
-                            <Grid item md={6} sx={6}>
-                                <Typography variant='h5' paddingLeft={6} fontSize={20} fontWeight={700} color='white'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum voluptatibus corporis explicabo consectetur porro rem expedita, nulla fuga nobis officia ipsa maxime ad. Recusandae debitis, error nobis ab ratione delectus.</Typography>
+                            <Grid item md={6} sx={6} sm={12}>
+                                <Typography variant='h5' paddingLeft={6} fontSize={20} fontWeight={700} color='white'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum voluptatibus corporis explicabo consectetur porro rem expedita, nulla
+                                     fuga nobis officia ipsa maxime ad. Recusandae debitis, error nobis ab ratione delectus.</Typography>
 
                             </Grid>
-                            <Grid item md={6} sx={6}>
-
-                                <img src="/Img/box4.jpg" alt='' width="100%" height="100%" />
+                            <Grid item md={6} sx={6} sm={6}>
+                                <img src="/Img/box4.jpg" alt=''  style={{
+                                    width: "100%",
+                                    height:  "100%"
+                                }} />
                             </Grid>
+
                         </Grid>
 
                     </Box>

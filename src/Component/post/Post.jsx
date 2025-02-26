@@ -24,9 +24,9 @@ const Post = () => {
                 <Subheader title="LATEST POST"  headerSpan="and articles" Hander="Our latest stories"/>
                 </div>
                 
-                <Grid container spacing={3} marginTop={5} alignItems="center" justifyContent="center">
+                <Grid container spacing={3} marginTop={5}  alignItems={"center"} justifyContent="center">
                     {boxdata.map((cul, index) => (
-                        <Grid item key={index} md={4} xs={6}>
+                        <Grid item key={index} md={4} xs={12}  alignItems={"center"} justifyContent="center">
 
                             <Card sx={{
                                 maxWidth: 300,
