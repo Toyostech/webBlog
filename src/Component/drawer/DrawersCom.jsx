@@ -17,8 +17,8 @@ const DrawersCom = () => {
             <IconButton onClick={() => (setOpen(true))} style={{
                 ml: "auto"
             }}>
-                <img src="/img/menu.png" width={50} height={50} alt=''>
-                </img>
+                <img src="/img/menu.png" width={50} height={50} alt=''/>
+               
             </IconButton>
             <Drawer PaperProps={{
                 sx: {
