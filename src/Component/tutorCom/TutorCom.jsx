@@ -34,7 +34,7 @@ const TutorCom = () => {
                                         borderRadius: 20,
                                         cursor: "pointer"
                                     }}>
-                                        <img src={item.img}  width={350} height={350} alt=''
+                                        <img src={item.images}  width={350} height={350} alt=''
                                         
                                         
                                         />
