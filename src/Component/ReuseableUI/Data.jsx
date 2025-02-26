@@ -90,17 +90,17 @@ export const totalDate=[
 
 export const Tutordate = [
     {
-        images: "../../img/boy.png",
+        images: "./Img/boy.png",
         lable: "JONATHON DOE",
         title: "Founder & CEO"
     },
     {
-        images: "../../img/boy2.jpg",
+        images: "../../Img/boy2.jpg",
         lable: "JOHN SMITH",
         title: "UI/UX Designe"
     },
     {
-        images: "../../img/girl3.jpg",
+        images: "../../Img/girl3.jpg",
         lable: "ADWARD MAYA",
         title: "Web Application Developer"
     },

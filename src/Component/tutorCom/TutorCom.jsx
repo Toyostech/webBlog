@@ -51,13 +51,13 @@ const TutorCom = () => {
                                             cursor: "pointer",
                                             background: "#fff",
                                             
-                                            ":hover":{
-                                                background: "#fff",
-                                                display: "none",
-                                                justifyItems: "center",
-                                                alignItems: "center",
-                                                cursor: "pointer",  
-                                            }
+                                            // ":hover":{
+                                            //     background: "#fff",
+                                            //     display: "none",
+                                            //     justifyItems: "center",
+                                            //     alignItems: "center",
+                                            //     cursor: "pointer",  
+                                            // }
                                         }}>
                                             
                                             <img src={whatsapp} alt='' width={50} height={50}/>

@@ -9,7 +9,7 @@ const Total = () => {
     return (
         <section style={{
            
-            backgroundImage: "url(../../img/bg.jpg)",
+            backgroundImage: "url(../../Img/bg.jpg)",
             
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
