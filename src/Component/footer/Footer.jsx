@@ -21,7 +21,15 @@ const Footer = () => {
                 <Grid container spacing={2} textAlign="center" justifyContent={"center"}>
                     <Grid item md={3} xs={12} alignItems={"center"} justifyContent={"center"}>
                         <div>
-                            <Typography variant='h3'  paddingBottom={{md:1, xs:0.5}}  fontWeight={{md: 800, xs:500}} fontSize={{md:25, xs:20}}  >
+                            <Typography variant='h3' sx={{
+                                ":hover":{
+                                    background: "red",
+                                    padding: 2,
+                                    borderRadius: "40px 5px",
+                                    transition: "ease-in 500ms",
+                                    color: "#fff"
+                                }
+                            }}   paddingBottom={{md:1, xs:0.5}}  fontWeight={{md: 800, xs:500}} fontSize={{md:25, xs:20}}  >
                                 Get Started
                             </Typography>
                             <Typography variant='h5' style={{
@@ -35,77 +43,97 @@ const Footer = () => {
                         </div>
 
                     </Grid>
-                    <Grid item md={3}>
+                    <Grid item md={3} sx={12} alignItems={"center"} justifyContent={"center"}>
                         <div>
-                            <Typography variant='h3'  paddingBottom={{md:1, xs:0}} fontWeight={{md: 800, xs:500}} fontSize={{md:25, xs:20}}  >
+                            <Typography variant='h3' sx={{
+                                ":hover":{
+                                    background: "red",
+                                    padding: 2,
+                                    borderRadius: "40px 5px",
+                                    transition: "ease-in 500ms",
+                                    color: "#fff"
+                                }
+                            }}   paddingBottom={{md:1, xs:0}} fontWeight={{md: 800, xs:500}} fontSize={{md:25, xs:20}}  >
                                 Services
                             </Typography>
-                            <ul
-
-
-
+                            <div
                                 style={{
                                     fontWeight: 700,
-                                    fontSize: 25,
-                                    listStyle: "none",
+                                   
+                                  
                                     color: "#fff"
                                 }} >
-                                <li>
+                                <Typography variant='h5'>
                                     Web design
-                                </li>
-                                <li>
+                                </Typography>
+                                <Typography variant='h5'>
                                     Development
-                                </li>
-                                <li>
+                                </Typography>
+                                <Typography variant='h5'>
                                     Branding
-                                </li>
-                                <li>
+                                </Typography>
+                                <Typography variant='h5'>
                                     Digital marketing
-                                </li>
+                                </Typography>
 
 
 
-                            </ul>
+                            </div>
 
 
                         </div>
 
                     </Grid>
-                    <Grid item md={3}>
+                    <Grid item md={3} sx={6}>
                         <div>
-                            <Typography  paddingBottom={{md:1, xs:0}} fontWeight={{md: 800, xs:500}} fontSize={{md:25, xs:20}}  
-                              >
+                            <Typography  paddingBottom={{md:1, xs:0}} sx={{
+                                ":hover":{
+                                    background: "red",
+                                    padding: 2,
+                                    borderRadius: "40px 5px",
+                                    transition: "ease-in 500ms",
+                                    color: "#fff"
+                                }
+                            }}  fontWeight={{md: 800, xs:500}} fontSize={{md:25, xs:20}}>
                                 Company
                             </Typography>
-                            <ul style={{
+                            <div style={{
                                 fontWeight: 700,
-                                fontSize: 25,
-                                listStyle: "none",
+                              
+                              
                                 color: "#fff"
                             }}>
-                                <li>
+                                <Typography variant='h5'>
                                     Policy
-                                </li>
-                                <li>
+                                </Typography>
+                                <Typography variant='h5'>
                                     Startup
-                                </li>
-                                <li>
+                                </Typography>
+                                <Typography variant='h5'>
                                     Careers
-                                </li>
-                                <li>
+                                </Typography >
+                                <Typography variant='h5'>
                                     Terms & condition
-                                </li>
+                                </Typography>
 
-                            </ul>
+                            </div>
                         </div>
 
                     </Grid>
-                    <Grid item md={3}>
+                    <Grid item md={3} sx={12}>
                         <div>
-                            <Typography variant='h3' paddingBottom={{md:1, xs:0}} fontWeight={{md: 800, xs:500}} fontSize={{md:25, xs:20}}  >
+                            <Typography variant='h3' paddingBottom={{md:1, xs:0}} fontWeight={{md: 800, xs:500}} fontSize={{md:25, xs:20}} sx={{
+                                ":hover":{
+                                    background: "red",
+                                    padding: 2,
+                                    borderRadius: "40px 5px",
+                                    transition: "ease-in 500ms",
+                                    color: "#fff"
+                                }
+                            }} >
                                 Follow Us
                             </Typography>
-                            <ul style={{
+                            <div style={{
                                 fontWeight: 600,
                                 fontSize: 25,
                                 display: "flex",
@@ -119,7 +147,7 @@ const Footer = () => {
 
 
 
-                            </ul>
+                            </div>
                             <Grid container spacing={4} paddingTop={5} textAlign="center" justifyContent={"center"}>
                                 <Grid item alignItems={"center"} justifyContent={"center"} xs={2}>
 
