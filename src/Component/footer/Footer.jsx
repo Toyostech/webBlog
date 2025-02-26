@@ -21,11 +21,7 @@ const Footer = () => {
                 <Grid container spacing={2} textAlign="center" justifyContent={"center"}>
                     <Grid item md={3} xs={12} alignItems={"center"} justifyContent={"center"}>
                         <div>
-                            <Typography variant='h3' fontSize={30} sx={{
-                                fontWeight: 800,
-                                paddingBottom: "10px"
-
-                            }} >
+                            <Typography variant='h3'  paddingBottom={{md:1, xs:0.5}}  fontWeight={{md: 800, xs:500}} fontSize={{md:25, xs:20}}  >
                                 Get Started
                             </Typography>
                             <Typography variant='h5' style={{
@@ -41,11 +37,7 @@ const Footer = () => {
                     </Grid>
                     <Grid item md={3}>
                         <div>
-                            <Typography variant='h3' fontSize={30} sx={{
-                                fontWeight: 800,
-                                paddingBottom: "10px"
-
-                            }} >
+                            <Typography variant='h3'  paddingBottom={{md:1, xs:0}} fontWeight={{md: 800, xs:500}} fontSize={{md:25, xs:20}}  >
                                 Services
                             </Typography>
                             <ul
@@ -81,11 +73,8 @@ const Footer = () => {
                     </Grid>
                     <Grid item md={3}>
                         <div>
-                            <Typography variant='h3' fontSize={30} sx={{
-                                fontWeight: 800,
-                                paddingBottom: "10px"
-
-                            }}>
+                            <Typography  paddingBottom={{md:1, xs:0}} fontWeight={{md: 800, xs:500}} fontSize={{md:25, xs:20}}  
+                              >
                                 Company
                             </Typography>
                             <ul style={{
@@ -113,11 +102,7 @@ const Footer = () => {
                     </Grid>
                     <Grid item md={3}>
                         <div>
-                            <Typography variant='h3' fontSize={30} sx={{
-                                fontWeight: 800,
-                                paddingBottom: "10px"
-
-                            }} >
+                            <Typography variant='h3' paddingBottom={{md:1, xs:0}} fontWeight={{md: 800, xs:500}} fontSize={{md:25, xs:20}}  >
                                 Follow Us
                             </Typography>
                             <ul style={{
@@ -135,8 +120,8 @@ const Footer = () => {
 
 
                             </ul>
-                            <Grid container spacing={4} paddingTop={5}>
-                                <Grid item alignItems={"center"} justifyContent={"center"}>
+                            <Grid container spacing={4} paddingTop={5} textAlign="center" justifyContent={"center"}>
+                                <Grid item alignItems={"center"} justifyContent={"center"} xs={2}>
 
                                     <img src="/img/whatsapp.png" width={50} height={50} alt='' />
 
