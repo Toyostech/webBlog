@@ -4,6 +4,7 @@ import React from 'react'
 import Subheader from '../ReuseableUI/subheader/Subheader'
 import images from '../pic/girl3.jpg'
 import twitter from '../pic/twitter.png'
+import facebook from '../pic/Facebook.png'
 
 const Description = () => {
   return (
@@ -14,7 +15,7 @@ const Description = () => {
       <Container>
         <Grid container spacing={5} alignItems='center' justifyContent="center">
           <Grid item md={6}>
-            <img src={images} width={500} height={500} alt="" />
+            <img src={images} width={400} height={500} alt="" />
           </Grid>
           <Grid item md={6}>
 
@@ -48,7 +49,7 @@ const Description = () => {
                 alignItems: "center"
 
               }}>
-                <img src="../../img/facebook.png" width={50} height={50} alt='' />
+                <img src={facebook} width={50} height={50} alt='' />
                 <Typography fontWeight={600}>Start learning</Typography>
               </Grid>
             </Grid>

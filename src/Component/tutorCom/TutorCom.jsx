@@ -3,6 +3,10 @@ import React from 'react'
 import Subheader from '../ReuseableUI/subheader/Subheader'
 
 import { Tutordate } from '../ReuseableUI/Data'
+import twitter from '../pic/twitter.png'
+import whatsapp from '../pic/whatsapp.png'
+import instagram from '../pic/instagram.png'
+
 
 
 const TutorCom = () => {
@@ -56,9 +60,9 @@ const TutorCom = () => {
                                             }
                                         }}>
                                             
-                                            <img src="/img/facebook.png" alt='' width={50} height={50}/>
-                                            <img src="/img/instagram.png" alt='' width={50} height={50}/>
-                                            <img src="/img/twitter.png" alt='' width={50} height={50}/>
+                                            <img src={whatsapp} alt='' width={50} height={50}/>
+                                            <img src={twitter} alt='' width={50} height={50}/>
+                                            <img src={instagram} alt='' width={50} height={50}/>
                                             
                                             
                                         </Box>
