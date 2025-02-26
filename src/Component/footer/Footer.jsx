@@ -4,7 +4,9 @@ import { Container, Grid, Typography } from '@mui/material'
 
 import React from 'react'
 
-
+import twitter from '../pic/twitter.png'
+import whatsapp from '../pic/whatsapp.png'
+import instagram from '../pic/instagram.png'
 
 
 const Footer = () => {
@@ -151,11 +153,11 @@ const Footer = () => {
                             <Grid container spacing={4} paddingTop={5} textAlign="center" justifyContent={"center"}>
                                 <Grid item alignItems={"center"} justifyContent={"center"} xs={2}>
 
-                                    <img src="/img/whatsapp.png" width={50} height={50} alt='' />
+                                    <img src={whatsapp} width={50} height={50} alt='' />
 
                                 </Grid>
                                 <Grid item alignItems={"center"} justifyContent={"center"}>
-                                    <img src="/img/twitter.png" width={50} height={50} alt='' />
+                                    <img src={twitter} width={50} height={50} alt='' />
                                 </Grid>
 
                                 <Grid item alignItems={"center"} justifyContent={"center"} sx={{
@@ -170,7 +172,7 @@ const Footer = () => {
                                         
                                     }
                                 }}>
-                                    <img src="/img/instagram.png" width={50} height={50} alt='' />
+                                    <img src={instagram} width={50} height={50} alt='' />
                                 </Grid>
 
 
