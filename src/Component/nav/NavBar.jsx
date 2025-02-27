@@ -25,7 +25,7 @@ const NavBar = () => {
 
                             alignItems: "center",
                             cursor: "pointer",
-                            gap: 25
+                            gap: 15
 
 
 
