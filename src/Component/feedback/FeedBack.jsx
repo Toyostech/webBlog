@@ -11,11 +11,11 @@ const FeedBack = () => {
             <section >
                 <Container>
                     <Typography variant='h4' fontSize={20} fontWeight={800} textAlign={"center"} >CLIENTS FEEBACK</Typography>
-                    <Typography variant='h3' marginBottom={5} fontWeight={700} textAlign={"center"}>What our client says</Typography>
+                    <Typography variant='h3' marginBottom={5} fontSize={{md:50, xs:30}} fontWeight={800} textAlign={"center"}>What our client says</Typography>
 
                     <Box margin={5} bgcolor={"red"} alignItems={"center"} justifyContent={"center"} boxShadow={"11px -10px 10px black"}>
                         <Grid container spacing={2} alignItems={"center"} justifyContent={"center"}>
-                            <Grid item md={6} xs={6} sm={12}>
+                            <Grid item md={6} xs={12} sm={12}>
                                 <Typography variant='h5' paddingLeft={6} fontSize={12} fontWeight={700} color='white'>
                                     Lorem ipsum dolor sit amet consectetur, a nulla
                                      fuga nobis officia ipsa maxi.</Typography>
