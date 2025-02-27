@@ -34,7 +34,7 @@ const Footer = () => {
                             }}   paddingBottom={{md:1, xs:0.5}}  fontWeight={{md: 800, xs:500}} fontSize={{md:25, xs:20}}  >
                                 Get Started
                             </Typography>
-                            <Typography variant='h5' style={{
+                            <Typography variant='h5' fontSize={{md:20, xs:15}} style={{
                                 fontWeight: 700,
                                 fontSize: 20,
                                 color: "#FFF"
@@ -65,16 +65,16 @@ const Footer = () => {
                                   
                                     color: "#fff"
                                 }} >
-                                <Typography variant='h5'>
+                                <Typography variant='h5' fontSize={{md:20, xs:15}}>
                                     Web design
                                 </Typography>
-                                <Typography variant='h5'>
+                                <Typography variant='h5' fontSize={{md:20, xs:15}}>
                                     Development
                                 </Typography>
-                                <Typography variant='h5'>
+                                <Typography variant='h5' fontSize={{md:20, xs:15}}>
                                     Branding
                                 </Typography>
-                                <Typography variant='h5'>
+                                <Typography variant='h5' fontSize={{md:20, xs:15}}>
                                     Digital marketing
                                 </Typography>
 
@@ -105,16 +105,16 @@ const Footer = () => {
                               
                                 color: "#fff"
                             }}>
-                                <Typography variant='h5'>
+                                <Typography variant='h5' fontSize={{md:20, xs:15}}>
                                     Policy
                                 </Typography>
-                                <Typography variant='h5'>
+                                <Typography variant='h5' fontSize={{md:20, xs:15}}>
                                     Startup
                                 </Typography>
-                                <Typography variant='h5'>
+                                <Typography variant='h5' fontSize={{md:20, xs:15}}>
                                     Careers
                                 </Typography >
-                                <Typography variant='h5'>
+                                <Typography variant='h5' fontSize={{md:20, xs:15}}>
                                     Terms & condition
                                 </Typography>
 
