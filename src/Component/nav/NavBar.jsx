@@ -1,5 +1,5 @@
 "use client"
-import { AppBar, Box, Button, Container, Tab, Tabs, Toolbar, Typography, useMediaQuery, useTheme } from '@mui/material'
+import { AppBar, Box, Button, ButtonBase, Container, Tab, Tabs, Toolbar, Typography, useMediaQuery, useTheme } from '@mui/material'
 
 import React from 'react'
 import { navdate } from '../ReuseableUI/Data'
@@ -20,22 +20,29 @@ const NavBar = () => {
                     {isMatch ? (
                         <Box sx={{
                             display: "flex",
-                            justifyContent: "space-between",
+                            justifyContent: "center",
+                           
 
                             alignItems: "center",
-                            cursor: "pointer"
+                            cursor: "pointer",
+                       
+
+
 
                         }}>
                             <div style={{
-                                marginLeft: 'auto'
-                            }}>
-                              
-                                    <Typography variant='h4' padding={2} fontFamily="fantasy" fontWeight={500}>TOYOSTECH</Typography>
-
                                 
 
+                            }}>
+
+                                <Typography variant='h4' padding={2} fontFamily="fantasy" fontWeight={500}>TOYOSTECH</Typography>
+
+
+
                             </div>
-                            <div>
+                            <div style={{
+                                marginLeft: 'auto'
+                            }}>
                                 <DrawersCom />
 
                             </div>
@@ -51,10 +58,10 @@ const NavBar = () => {
                             alignItems: "center"
                         }}>
 
-                            <Link to="/">
-                                <Typography variant='h4' padding={2} fontFamily="fantasy" fontWeight={500}>TOYOSTECH</Typography>
 
-                            </Link>
+                            <Typography variant='h4' padding={2} fontFamily="fantasy" fontWeight={500}>TOYOSTECH</Typography>
+
+
 
 
                             <Tabs sx={{
@@ -77,10 +84,20 @@ const NavBar = () => {
 
                             </Tabs>
 
-                            <Button sx={{
+                            <ButtonBase sx={{
                                 marginLeft: "auto"
+                            }}>
+                                <Link to="/contact">
+                                    <Button sx={{
 
-                            }} variant="contained">Login</Button>
+
+                                    }} variant="contained">Login</Button>
+                                </Link>
+
+
+                            </ButtonBase>
+
+
                             <Button sx={{
                                 marginLeft: "20px"
                             }} variant="contained">SignUp</Button>

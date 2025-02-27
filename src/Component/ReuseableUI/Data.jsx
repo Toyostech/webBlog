@@ -105,3 +105,26 @@ export const Tutordate = [
         title: "Web Application Developer"
     },
 ]
+
+export const aboutdata =[
+    {
+        img: "/Img/web.png",
+        lable: "Web Development",
+        text: "If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles."
+    },
+    {
+        img: "/Img/uiux.png",
+        lable: "UI Designer",
+        text: "If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles."
+    },
+    {
+        img: "/Img/int.png",
+        lable: "Interaction",
+        text: "If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles."
+    },
+    {
+        img: "/Img/map.png",
+        lable: "User Experiance",
+        text: "If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles."
+    },
+]

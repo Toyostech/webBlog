@@ -17,27 +17,29 @@ import HomePage from './Component/home/HomePage';
 
 
 
+
 function App() {
   return (
     <div style={{
       overflow: "hidden"
     }}>
       <NavBar />
-      
+     
+
       <main>
         <Routes>
-          <Route path='/home' element={<HomePage/>}/>
+          <Route path='/home' element={<HomePage />} />
           <Route path='/abouts' element={<Abouts />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/service' element ={<Service/>}/>
+          <Route path='/service' element={<Service />} />
         </Routes>
 
 
       </main>
-      
 
 
-      
+
+
 
 
 
