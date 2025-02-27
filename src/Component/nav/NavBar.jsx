@@ -20,32 +20,27 @@ const NavBar = () => {
                     {isMatch ? (
                         <Box sx={{
                             display: "flex",
-                            justifyContent: "center",
-                           
+                            justifyContent: "space-between",
+
 
                             alignItems: "center",
                             cursor: "pointer",
-                       
+                            gap: 25
+
 
 
 
                         }}>
-                            <div style={{
-                                
-
-                            }}>
-
-                                <Typography variant='h4' padding={2} fontFamily="fantasy" fontWeight={500}>TOYOSTECH</Typography>
 
 
 
-                            </div>
-                            <div style={{
-                                marginLeft: 'auto'
-                            }}>
-                                <DrawersCom />
 
-                            </div>
+                            <Typography variant='h4'  padding={2} fontFamily="fantasy" fontSize={20} fontWeight={500}>TOYOSTECH</Typography>
+
+
+                            <DrawersCom />
+
+
 
 
 

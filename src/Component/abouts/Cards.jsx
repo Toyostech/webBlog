@@ -5,9 +5,9 @@ import { aboutdata } from '../ReuseableUI/Data'
 const Cards = () => {
     return (
         <>
-            <Grid container spacing={2}paddingTop={15} paddingBottom={15}>
+            <Grid container spacing={2}paddingTop={15} paddingBottom={15} >
                 {aboutdata.map((items, index) => (
-                    <Grid item key={index} md={3} xs={6}  justifyContent={"center"} textAlign={"center"} sx={{
+                    <Grid item key={index} md={3} xs={12}  justifyContent={"center"} textAlign={"center"} sx={{
                         boxShadow: "5px 3px 10px "
                     }}>
                         <div>
