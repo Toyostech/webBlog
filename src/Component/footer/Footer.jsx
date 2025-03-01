@@ -102,6 +102,7 @@ const Footer = () => {
                             </Typography>
                             <div style={{
                                 fontWeight: 700,
+                                textAlign: "left",
                               
                               
                                 color: "#fff"
@@ -141,12 +142,13 @@ const Footer = () => {
                                 fontSize: 25,
                                 display: "flex",
                                 flexDirection: "column",
-                                color: "#fff"
+                                color: "#fff",
+                                textAlign: "left",
 
                             }} >
 
                                 <a typeof='maill'>salamitoyoikabiru@gmail.com</a>
-                                <a type='tell'>07037983613</a>
+                                <a type='tel'>07037983613</a>
 
 
 
