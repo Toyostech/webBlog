@@ -61,6 +61,7 @@ const Footer = () => {
                             <div
                                 style={{
                                     fontWeight: 700,
+                                    textAlign: "left",
                                    
                                   
                                     color: "#fff"
