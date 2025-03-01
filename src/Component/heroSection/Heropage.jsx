@@ -31,6 +31,9 @@ const Heropage = () => {
             }}>
                 <div style={{
                     padding: "0px 40px",
+                    backgroundColor: "rgba(0, 0, 0, 0.4)",
+                    width: "100%",
+                    height: "100%"
                 }}>
                     <div style={{
                         justifyContent: "center",
@@ -43,13 +46,19 @@ const Heropage = () => {
 
 
 
-                    <div>
+                    <div style={{
+                     
+                        width: "100%",
+                        height: "100%"
+                    }}>
                         <Typography variant='h1' style={{
                             justifyContent: "center",
+                          
+                            
 
                             fontSize: "60px",
                             fontWeight: 800,
-                            textAlign: "center",
+                            textAlign: "center",    
                             marginTop: 70,
                             paddingTop: 200,
                             color: "white"
@@ -58,6 +67,7 @@ const Heropage = () => {
                             This is the way to learn online class
 
                         </Typography>
+                        
 
 
                     </div>

@@ -17,18 +17,24 @@ const Abouts = () => {
 
 
       }}>
-        <Box paddingTop={{md:60, xs:50}} sx={{
+        <Box paddingTop={{ md: 60, xs: 50 }} sx={{
           justifyContent: "center",
           alignItems: "center",
           textAlign: "center",
-       
+
+          padding: "0px 40px",
+          backgroundColor: "rgba(0, 0, 0, 0.3)",
+          width: "100%",
+          height: "100%"
+
+
 
 
         }}>
           <Typography variant='h3' color='red' fontWeight={{ md: 800, xs: 700 }} fontSize={{ md: 60, xs: 40 }}>
             Collage Education
           </Typography>
-          <Typography variant='h5' fontWeight={800} >Awesome Template get it know</Typography>
+          <Typography variant='h5' color='#fff' fontWeight={800} >Awesome Template get it know</Typography>
         </Box>
 
       </div>
@@ -37,14 +43,14 @@ const Abouts = () => {
         <div style={{
           textAlign: "center",
           paddingTop: "30px"
-          
+
 
         }}>
-          <Typography variant='h2' paddingBottom={3} fontWeight={{md: 800, xs:800}} fontSize={{xs:30}}>Our Featured Courses</Typography>
+          <Typography variant='h2' paddingBottom={3} fontWeight={{ md: 800, xs: 800 }} fontSize={{ xs: 30 }}>Our Featured Courses</Typography>
           <Typography variant='h5' fontSize={20} fontWeight={600}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam porro, dignissimos maiores ducimus, maxime aut illo nisi molestias explicabo quibusdam cumque, consequatur asperiores incidunt neque delectus modi? Deleniti, cumque optio.</Typography>
         </div>
-        <Cards/>
-      
+        <Cards />
+
         <FeedBack />
       </Container>
 

@@ -14,45 +14,59 @@ import Abouts from './Component/abouts/Abouts';
 import Contact from './Component/contact/Contact';
 import Service from './Component/service/Service'
 import HomePage from './Component/home/HomePage';
+import { createTheme, CssBaseline, Switch, ThemeProvider } from '@mui/material';
+import { useState } from 'react';
+import { darkPalette, lightPalette } from './Component/lib';
+// import HomeVideo from './Component/bgVideo/HomeVideo';
 
 
 
 
 function App() {
+  const [isdarkmode, setDarkMode] = useState(false)
+  const theme = createTheme(isdarkmode ? darkPalette : lightPalette)
   return (
-    <div style={{
-      overflow: "hidden"
-    }}>
-      <NavBar />
-     
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
 
-      <main>
-        <Routes>
-          <Route path='/home' element={<HomePage />} />
-          <Route path='/abouts' element={<Abouts />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/service' element={<Service />} />
-        </Routes>
+      <div style={{
+        overflow: "hidden"
+      }}>
 
+        <NavBar />
+        {/* <HomeVideo/> */}
+       
 
-      </main>
-
-
-
-
-
+        <main>
+       
+          <Routes>
+            <Route path='/home' element={<HomePage />} />
+            <Route path='/abouts' element={<Abouts />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/service' element={<Service />} />
+          </Routes>
 
 
-
-
-
-
-      <Footer />
+        </main>
 
 
 
 
-    </div>
+
+
+
+
+
+
+        <Switch onCheck={isdarkmode} onChange={() => setDarkMode((prev) => !prev)} />
+        <Footer />
+
+
+
+
+      </div>
+    </ThemeProvider>
+
   );
 }
 
