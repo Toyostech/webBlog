@@ -62,7 +62,7 @@ const Footer = () => {
                             <div
                                 style={{
                                     fontWeight: 700,
-                                    textAlign: "left",
+                                  
                                    
                                   
                                     color: "#fff"
@@ -103,7 +103,7 @@ const Footer = () => {
                             </Typography>
                             <div style={{
                                 fontWeight: 700,
-                                textAlign: "left",
+                                
                               
                               
                                 color: "#fff"
@@ -140,7 +140,7 @@ const Footer = () => {
                             </Typography>
                             <div style={{
                                 fontWeight: 600,
-                                fontSize: 25,
+                                fontSize: 20,
                                 display: "flex",
                                 flexDirection: "column",
                                 color: "#fff",
