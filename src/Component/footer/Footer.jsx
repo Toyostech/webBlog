@@ -36,7 +36,7 @@ const Footer = () => {
                             </Typography>
                             <Typography variant='h5' fontSize={{md:20, xs:15}} style={{
                                 fontWeight: 700,
-                                fontSize: 20,
+                              
                                 color: "#FFF"
 
                             }}>
