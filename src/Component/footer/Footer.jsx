@@ -7,6 +7,7 @@ import React from 'react'
 import twitter from '../pic/twitter.png'
 import whatsapp from '../pic/whatsapp.png'
 import instagram from '../pic/instagram.png'
+import { Link } from 'react-router-dom'
 
 
 const Footer = () => {
@@ -143,7 +144,7 @@ const Footer = () => {
                                 display: "flex",
                                 flexDirection: "column",
                                 color: "#fff",
-                                textAlign: "left",
+                                
 
                             }} >
 
@@ -174,7 +175,8 @@ const Footer = () => {
                                         transition: "ease-in-out 1000ms",
                                         
                                     }
-                                }}>
+                                }}> 
+                                
                                     <img src={instagram} width={50} height={50} alt='' />
                                 </Grid>
 
