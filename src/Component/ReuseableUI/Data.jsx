@@ -37,7 +37,7 @@ export const Coursdate =[
     },
     {
         img: "/Img/react.png",
-        label: "Physscis"
+        label: "Physics"
     },
 
     {

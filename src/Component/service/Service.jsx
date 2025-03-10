@@ -41,9 +41,10 @@ const page = () => {
 
 
             </Grid>
-          </Grid>
+          </Grid>     \
+          <Service2/>
         </Container>
-        <Service2/>
+   
 
 
       </section>

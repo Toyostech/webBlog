@@ -1,8 +1,9 @@
 import { Drawer, IconButton, Tab, Tabs, Typography } from '@mui/material'
-
+import { motion } from 'framer-motion'
 import React, { useState } from 'react'
 import { navdate } from '../ReuseableUI/Data'
 import menu from '../pic/menu.png'
+import { div } from 'framer-motion/client'
 
 
 
@@ -18,8 +19,8 @@ const DrawersCom = () => {
             <IconButton onClick={() => (setOpen(true))} style={{
                 ml: "auto"
             }}>
-                <img src={menu} width={50} height={50} alt=''/>
-               
+                <img src={menu} width={50} height={50} alt='' />
+
             </IconButton>
             <Drawer PaperProps={{
                 sx: {
@@ -34,12 +35,16 @@ const DrawersCom = () => {
                         display: "flex",
                         flexDirection: "column",
                         color: "#fff",
-                    
+
                         fontWeight: 900,
                         padding: "20px"
                     }}>
                         {navdate.map((link, index) => (
-                            <Tab  onClose={() => setOpen(false)} key={index} href={link.path} label={link.title} />
+
+                            <Tab onClose={() => setOpen(false)} key={index} href={link.path} label={link.title} />
+
+
+
 
 
 
@@ -50,9 +55,9 @@ const DrawersCom = () => {
 
                 </Tabs>
 
-                
-       
-          
+
+
+
             </Drawer>
         </>
     )

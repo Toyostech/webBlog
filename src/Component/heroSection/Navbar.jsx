@@ -35,7 +35,7 @@ const Navbar = () => {
                         <DrawerCom />
                     </Box>
                 ) : (<Toolbar>
-  
+
                     <Container sx={{
                         display: "flex",
                         alignItems: "center"
@@ -56,9 +56,10 @@ const Navbar = () => {
                             marginLeft: "auto"
                         }} value={1} indicatorColor='secondary' textColor='inherit'  >
                             {navdate.map((link, index) => (
-                                <Link href={link.path} key={index}>
+                                < motion.Link whileHover={{ scale: 1.1 }}
+                                    whileTap={{ scale: 0.9 }} href={link.path} key={index}>
                                     <Tab label={link.title} />
-                                </Link>
+                                </motion.Link>
                             ))}
 
                         </Tabs>

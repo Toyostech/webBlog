@@ -3,6 +3,7 @@ import React from 'react'
 import FeedBack from '../feedback/FeedBack'
 import Cards from './Cards'
 
+
 const Abouts = () => {
   return (
     <section>
@@ -50,7 +51,7 @@ const Abouts = () => {
           <Typography variant='h5' fontSize={20} fontWeight={600}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam porro, dignissimos maiores ducimus, maxime aut illo nisi molestias explicabo quibusdam cumque, consequatur asperiores incidunt neque delectus modi? Deleniti, cumque optio.</Typography>
         </div>
         <Cards />
-
+ 
         <FeedBack />
       </Container>
 

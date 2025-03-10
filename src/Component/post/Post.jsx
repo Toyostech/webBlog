@@ -6,12 +6,13 @@ import { boxdata } from '../ReuseableUI/Data'
 
 
 const Post = () => {
-    const date = new Date();
-    const dates =date.getDate();
-    const mon = date.getMonth();
-    const year= date.getFullYear();
+    const date = new Date()
+    const dates =date.toLocaleDateString();
+    // const mon = date.getMonth();
+    // const year= date.getFullYear();
+
+   
     console.log(dates)
-    console.log(date)
     return (
         <section style={{
             paddingBottom: 30
@@ -48,7 +49,7 @@ const Post = () => {
 
                                 <CardContent>
 
-                                    <Typography variant='h6' textAlign="right" fontWeight={700}>{dates} - {mon} - {year}</Typography>
+                                    <Typography variant='h6' textAlign="right" fontWeight={700}>{dates}</Typography>
                                     <Typography variant='h6' fontWeight={{md:800, xs: 600}} padding={2}>{cul.label}</Typography>
 
 

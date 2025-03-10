@@ -190,6 +190,9 @@ const Footer = () => {
                 </Grid>
 
             </Container>
+
+            <hr />
+            <marquee behavior="scroll" direction="left" loop>hfhjcjgh</marquee>
         </section>
 
 

@@ -1,7 +1,8 @@
 import { Box, Button, Container, TextField, Typography } from '@mui/material'
 
 import React, { useState } from 'react'
-
+import {Swiper, SwiperSlider, useSwiper} from "swiper/react"
+import 'swiper/css'
 
 const Contact = () => {
   const [message, setMessage] = useState({
@@ -16,6 +17,7 @@ const Contact = () => {
 
   })
   const [isSignUp, setisSignUp] = useState(false)
+  
   const MessageHandler = (e) => {
 
     setMessage((preState) => ({
@@ -116,6 +118,7 @@ const Contact = () => {
                   type='text'
 
                 />
+
               )}
 
               {isSignUp && (
