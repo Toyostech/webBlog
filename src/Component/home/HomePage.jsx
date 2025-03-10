@@ -5,7 +5,7 @@ import Post from '../post/Post'
 import TutorCom from '../tutorCom/TutorCom'
 import Total from '../totalstudent/Total'
 import Description from '../descript/Description'
-import NavBar from '../nav/NavBar'
+
 
 const HomePage = () => {
     return (
