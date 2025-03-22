@@ -2,6 +2,7 @@ import { Box, Container, Typography } from '@mui/material'
 import React from 'react'
 import FeedBack from '../feedback/FeedBack'
 import Cards from './Cards'
+import Todo_List from '../todo_ list/Todo_List'
 
 
 const Abouts = () => {
@@ -53,6 +54,7 @@ const Abouts = () => {
         <Cards />
  
         <FeedBack />
+        <Todo_List/>
       </Container>
 
     </section>

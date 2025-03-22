@@ -9,9 +9,6 @@ import { Typography } from '@mui/material'
 
 
 
-const images = {
-
-}
 
 
 

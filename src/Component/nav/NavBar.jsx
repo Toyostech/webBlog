@@ -5,7 +5,7 @@ import React from 'react'
 import { navdate } from '../ReuseableUI/Data'
 import { useState } from 'react'
 import DrawersCom from '../drawer/DrawersCom'
-import { Link, Links } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 
 
 

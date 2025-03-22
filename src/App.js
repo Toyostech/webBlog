@@ -17,6 +17,7 @@ import HomePage from './Component/home/HomePage';
 import { createTheme, CssBaseline, Switch, ThemeProvider } from '@mui/material';
 import { useState } from 'react';
 import { darkPalette, lightPalette } from './Component/lib';
+import Note from './Component/note/Note';
 // import HomeVideo from './Component/bgVideo/HomeVideo';
 
 
@@ -59,6 +60,7 @@ function App() {
 
 
         <Switch onCheck={isdarkmode} onChange={() => setDarkMode((prev) => !prev)} />
+      
         <Footer />
 
 
